@@ -8,6 +8,7 @@
 
 #import "DetailProductViewController.h"
 #import "ImageFetchService.h"
+#import "WKWebViewController.h"
 
 @interface DetailProductViewController ()<UITableViewDataSource, UITableViewDelegate,UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *productImgView;
@@ -68,5 +69,14 @@
 //    NSLog(@"up %f", scrollView.contentOffset.y);
 //  }
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+  if([segue.identifier isEqualToString:@"ShowWebVC"]){
+    WKWebViewController *webVC = (WKWebViewController*)segue.destinationViewController;
+    webVC.productURL = self.selectedProduct.productURL;
+  }
+}
+
+
 
 @end

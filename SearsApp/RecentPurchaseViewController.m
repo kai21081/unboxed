@@ -17,6 +17,7 @@
 @property (strong, nonatomic) NSArray *purchases;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSDictionary *selectedItem;
+//@property (weak, nonatomic) IBOutlet NSLayoutConstraint *recentPurchaseCellHorizontalConstraint;
 
 @end
 
@@ -44,12 +45,15 @@
   if (cell.productImgView.image == nil) {
     [ImageFetchService fetchImageWithString:imgURL size:CGSizeMake(100, 100) completionHandler:^(UIImage *thumbnailImage) {
       cell.productImgView.image = thumbnailImage;
+      cell.productImgView.layer.masksToBounds = YES;
+      cell.productImgView.layer.cornerRadius = 10;
     }];
   }
-  NSDate *date = [recentPurchase objectForKey:@"DateOfPurchase"];
-  NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
-  formatter.dateFormat = @"MM/dd/yyyy";
-  cell.dateOfPurchase.text = [formatter stringFromDate:date];
+//  NSDate *date = [recentPurchase objectForKey:@"DateOfPurchase"];
+//  NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+//  formatter.dateFormat = @"MM/dd/yyyy";
+//  cell.dateOfPurchase.text = [formatter stringFromDate:date];
+  
   return cell;
 }
 
@@ -73,7 +77,6 @@
 }
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
-
   NSMutableDictionary *newFeed = [[NSMutableDictionary alloc]init];
   NSURL *videoURL = [info objectForKey:UIImagePickerControllerMediaURL];
   NSString *name = [self.selectedItem objectForKey:@"Name"];
@@ -83,7 +86,7 @@
   [newFeed setObject:videoURL forKey:@"VideoURL"];
   [self.delegate addNewFeed:newFeed];
   [self dismissViewControllerAnimated:YES completion:^{
-    
+    [self.navigationController popViewControllerAnimated:NO];
   }];
 }
 

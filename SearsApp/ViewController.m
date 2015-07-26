@@ -139,9 +139,10 @@
   NSDictionary *selectedProduct = [self.newsFeeds objectAtIndex:indexPath.row];
   [[SearsService sharedService]fetchProductWithURL:[selectedProduct objectForKey:@"reqURL"] completionHandler:^(Product *product, NSString *error) {
     DetailProductViewController *detailProductVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailProductVC"];
+    product.productURL = [selectedProduct objectForKey:@"productURL"];
     detailProductVC.selectedProduct = product;
     [self.mc stop];
-    NewsFeedCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    NewsFeedCell *cell = (NewsFeedCell*)[self.tableView cellForRowAtIndexPath:indexPath];
     cell.firstFrameView.alpha = 1;
     [self.navigationController pushViewController:detailProductVC animated:YES];
   }];

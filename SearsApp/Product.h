@@ -14,5 +14,6 @@
 @property (strong, nonatomic) NSString *imageURL;
 @property (strong, nonatomic) UIImage *image;
 @property (strong, nonatomic) NSString *price;
+@property (strong, nonatomic) NSString *productURL;
 
 @end

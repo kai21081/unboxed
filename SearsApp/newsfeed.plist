@@ -11,6 +11,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05234021000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>businesswoman-48</string>
+		<key>productURL</key>
+		<string>http://www.sears.com/intex-12ft-x-30in-round-frame-pool-package/p-05234021000P?prdNo=2&amp;blockNo=2&amp;blockType=G2</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -21,6 +23,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>shipped-48</string>
+		<key>productURL</key>
+		<string>http://www.kmart.com/rio-grande-race-for-the-galaxy/p-004V001177937001P?redirectType=SKIP_LEVEL</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -31,6 +35,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05235132000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>businesswoman-48</string>
+		<key>productURL</key>
+		<string>http://www.sears.com/my-first-craftsman-fisher-price-power-wheels-my/p-05235132000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -41,6 +47,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/00939153000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>film_reel-48</string>
+		<key>productURL</key>
+		<string>http://www.sears.com/craftsman-153pc-universal-mts-set/p-00939153000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -51,6 +59,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05234021000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>idea-48</string>
+		<key>productURL</key>
+		<string>http://www.sears.com/intex-12ft-x-30in-round-frame-pool-package/p-05234021000P?prdNo=2&amp;blockNo=2&amp;blockType=G2</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -61,6 +71,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>music-48</string>
+		<key>productURL</key>
+		<string>http://www.kmart.com/rio-grande-race-for-the-galaxy/p-004V001177937001P?redirectType=SKIP_LEVEL</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -71,6 +83,8 @@
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05235132000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
 		<key>userIcon</key>
 		<string>rating-48</string>
+		<key>productURL</key>
+		<string>http://www.sears.com/my-first-craftsman-fisher-price-power-wheels-my/p-05235132000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
 	</dict>
 </array>
 </plist>
