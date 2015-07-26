@@ -7,6 +7,7 @@
 //
 
 #import "NewsFeedCell.h"
+#import <Social/Social.h>
 
 @implementation NewsFeedCell
 
@@ -18,6 +19,17 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+- (IBAction)tweeterButtonPressed:(id)sender {
+  
+  [self.delegate didTapTwitterButton:self];
+  
+}
+- (IBAction)facebookButtonPressed:(id)sender {
+  [self.delegate didTapFacebookButton:self];
+}
+- (IBAction)emailButtonPressed:(id)sender {
+  [self.delegate didTapEmailButton:self];
 }
 
 @end

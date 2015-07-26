@@ -9,6 +9,8 @@
 		<string>ClipC_Pool360</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05234021000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>businesswoman-48</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -17,6 +19,8 @@
 		<string>Clip_B_RaceSetupAgain</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>shipped-48</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -25,6 +29,8 @@
 		<string>Clip1_Driving</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05235132000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>businesswoman-48</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -33,6 +39,8 @@
 		<string>ClipV_Craftsman</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/00939153000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>film_reel-48</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -41,6 +49,8 @@
 		<string>ClipD_KidsInPool</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05234021000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>idea-48</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -49,6 +59,8 @@
 		<string>Clip_A_RaceSetup</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>music-48</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -57,6 +69,8 @@
 		<string>Clip5_Crash</string>
 		<key>reqURL</key>
 		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05235132000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>rating-48</string>
 	</dict>
 </array>
 </plist>

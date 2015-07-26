@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MySocialProtocol.h"
 
 @interface NewsFeedCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UIView *videoView;
-@property (weak, nonatomic) IBOutlet UIImageView *firstFrameView
-;
+@property (weak, nonatomic) IBOutlet UIImageView *firstFrameView;
+@property (weak, nonatomic) IBOutlet UIImageView *userIcon;
+@property (weak, nonatomic) IBOutlet UILabel *datePosted;
+@property (weak, nonatomic) IBOutlet UILabel *caption;
+
+@property (weak, nonatomic) id<MySocialProtocol> delegate;
+
 
 @end

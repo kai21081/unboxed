@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "AddNewsFeedDelegate.h"
+#import "MySocialProtocol.h"
 
 
-@interface ViewController : UIViewController<AddNewsFeedDelegate>
+@interface ViewController : UIViewController<AddNewsFeedDelegate, MySocialProtocol>
 
 
 @end

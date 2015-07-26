@@ -22,6 +22,21 @@
 		0F28200D1B635CEE005E916A /* newsfeed.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F28200C1B635CEE005E916A /* newsfeed.plist */; };
 		0F2820101B63628A005E916A /* NewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28200F1B63628A005E916A /* NewsFeed.m */; };
 		0F2820171B63D90E005E916A /* RecentPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2820161B63D90D005E916A /* RecentPurchaseViewController.m */; };
+		4F486B031B64ACE500D1BC12 /* businessman-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AF41B64ACE500D1BC12 /* businessman-48.png */; };
+		4F486B041B64ACE500D1BC12 /* businesswoman-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AF51B64ACE500D1BC12 /* businesswoman-48.png */; };
+		4F486B051B64ACE500D1BC12 /* close_up_mode-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AF61B64ACE500D1BC12 /* close_up_mode-48.png */; };
+		4F486B061B64ACE500D1BC12 /* factory-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AF71B64ACE500D1BC12 /* factory-48.png */; };
+		4F486B071B64ACE500D1BC12 /* film_reel-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AF81B64ACE500D1BC12 /* film_reel-48.png */; };
+		4F486B081B64ACE500D1BC12 /* idea-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AF91B64ACE500D1BC12 /* idea-48.png */; };
+		4F486B091B64ACE500D1BC12 /* mms-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AFA1B64ACE500D1BC12 /* mms-48.png */; };
+		4F486B0A1B64ACE500D1BC12 /* multiple_cameras-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AFB1B64ACE500D1BC12 /* multiple_cameras-48.png */; };
+		4F486B0B1B64ACE500D1BC12 /* music-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AFC1B64ACE500D1BC12 /* music-48.png */; };
+		4F486B0C1B64ACE500D1BC12 /* online_support-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AFD1B64ACE500D1BC12 /* online_support-48.png */; };
+		4F486B0D1B64ACE500D1BC12 /* rating-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AFE1B64ACE500D1BC12 /* rating-48.png */; };
+		4F486B0E1B64ACE500D1BC12 /* reading-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486AFF1B64ACE500D1BC12 /* reading-48.png */; };
+		4F486B0F1B64ACE500D1BC12 /* shipped-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486B001B64ACE500D1BC12 /* shipped-48.png */; };
+		4F486B101B64ACE500D1BC12 /* sports_mode-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486B011B64ACE500D1BC12 /* sports_mode-48.png */; };
+		4F486B111B64ACE500D1BC12 /* webcam-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486B021B64ACE500D1BC12 /* webcam-48.png */; };
 		4FE74B931B63F4FB0032233F /* ImageFetchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B901B63F4FB0032233F /* ImageFetchService.m */; };
 		4FE74B941B63F4FB0032233F /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B921B63F4FB0032233F /* ImageResizer.m */; };
 		4FE74B961B63F5590032233F /* RecentPurchase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74B951B63F5590032233F /* RecentPurchase.plist */; };
@@ -90,6 +105,22 @@
 		0F28200F1B63628A005E916A /* NewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeed.m; sourceTree = "<group>"; };
 		0F2820151B63D90D005E916A /* RecentPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentPurchaseViewController.h; sourceTree = "<group>"; };
 		0F2820161B63D90D005E916A /* RecentPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentPurchaseViewController.m; sourceTree = "<group>"; };
+		4F486AF41B64ACE500D1BC12 /* businessman-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "businessman-48.png"; sourceTree = "<group>"; };
+		4F486AF51B64ACE500D1BC12 /* businesswoman-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "businesswoman-48.png"; sourceTree = "<group>"; };
+		4F486AF61B64ACE500D1BC12 /* close_up_mode-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_up_mode-48.png"; sourceTree = "<group>"; };
+		4F486AF71B64ACE500D1BC12 /* factory-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "factory-48.png"; sourceTree = "<group>"; };
+		4F486AF81B64ACE500D1BC12 /* film_reel-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "film_reel-48.png"; sourceTree = "<group>"; };
+		4F486AF91B64ACE500D1BC12 /* idea-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idea-48.png"; sourceTree = "<group>"; };
+		4F486AFA1B64ACE500D1BC12 /* mms-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mms-48.png"; sourceTree = "<group>"; };
+		4F486AFB1B64ACE500D1BC12 /* multiple_cameras-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multiple_cameras-48.png"; sourceTree = "<group>"; };
+		4F486AFC1B64ACE500D1BC12 /* music-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-48.png"; sourceTree = "<group>"; };
+		4F486AFD1B64ACE500D1BC12 /* online_support-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "online_support-48.png"; sourceTree = "<group>"; };
+		4F486AFE1B64ACE500D1BC12 /* rating-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating-48.png"; sourceTree = "<group>"; };
+		4F486AFF1B64ACE500D1BC12 /* reading-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reading-48.png"; sourceTree = "<group>"; };
+		4F486B001B64ACE500D1BC12 /* shipped-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shipped-48.png"; sourceTree = "<group>"; };
+		4F486B011B64ACE500D1BC12 /* sports_mode-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sports_mode-48.png"; sourceTree = "<group>"; };
+		4F486B021B64ACE500D1BC12 /* webcam-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webcam-48.png"; sourceTree = "<group>"; };
+		4F486B121B64C73000D1BC12 /* MySocialProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySocialProtocol.h; sourceTree = "<group>"; };
 		4FE74B8F1B63F4FB0032233F /* ImageFetchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetchService.h; sourceTree = "<group>"; };
 		4FE74B901B63F4FB0032233F /* ImageFetchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetchService.m; sourceTree = "<group>"; };
 		4FE74B911B63F4FB0032233F /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
@@ -180,26 +211,8 @@
 		0F281FCF1B5F6901005E916A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FE74BC71B645AB80032233F /* Clip1_Driving.mp4 */,
-				4FE74BC81B645AB80032233F /* Clip2_LogTricks.mp4 */,
-				4FE74BC91B645AB80032233F /* Clip3_Police.mp4 */,
-				4FE74BCA1B645AB80032233F /* Clip4_CarDemo.mp4 */,
-				4FE74BCB1B645AB80032233F /* Clip5_Crash.mp4 */,
-				4FE74BCC1B645AB80032233F /* Clip6_Dance.mp4 */,
-				4FE74BCD1B645AB80032233F /* Clip7_BlooperReel.mp4 */,
-				4FE74BC11B645AAE0032233F /* Clip_A_RaceSetup.mp4 */,
-				4FE74BC21B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 */,
-				4FE74BC31B645AAE0032233F /* Clip_C_RaceWinTips.mp4 */,
-				4FE74BB91B645AA30032233F /* ClipA_PlasticWrap.mp4 */,
-				4FE74BBA1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 */,
-				4FE74BBB1B645AA30032233F /* ClipC_Pool360.mp4 */,
-				4FE74BBC1B645AA30032233F /* ClipD_KidsInPool.mp4 */,
-				4FE74BAD1B645A950032233F /* ClipI_CraftsmanCloseup.mp4 */,
-				4FE74BAE1B645A950032233F /* ClipII_Tools.mp4 */,
-				4FE74BAF1B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 */,
-				4FE74BB01B645A950032233F /* ClipIV_Craftsman.mp4 */,
-				4FE74BB11B645A950032233F /* ClipV_Craftsman.mp4 */,
-				4FE74BB21B645A950032233F /* ClipVI_Craftsman.mp4 */,
+				4F486AF31B64ACD700D1BC12 /* icons */,
+				4F486AF21B64ACBD00D1BC12 /* videoClips */,
 				0F281FD01B5F6901005E916A /* Info.plist */,
 				0F281FD11B5F6901005E916A /* main.m */,
 			);
@@ -270,8 +283,58 @@
 				4FE74BD51B645E7C0032233F /* VideoRecordingViewController.h */,
 				4FE74BD61B645E7C0032233F /* VideoRecordingViewController.m */,
 				4FE74BDA1B64686B0032233F /* AddNewsFeedDelegate.h */,
+				4F486B121B64C73000D1BC12 /* MySocialProtocol.h */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4F486AF21B64ACBD00D1BC12 /* videoClips */ = {
+			isa = PBXGroup;
+			children = (
+				4FE74BC71B645AB80032233F /* Clip1_Driving.mp4 */,
+				4FE74BC81B645AB80032233F /* Clip2_LogTricks.mp4 */,
+				4FE74BC91B645AB80032233F /* Clip3_Police.mp4 */,
+				4FE74BCA1B645AB80032233F /* Clip4_CarDemo.mp4 */,
+				4FE74BCB1B645AB80032233F /* Clip5_Crash.mp4 */,
+				4FE74BCC1B645AB80032233F /* Clip6_Dance.mp4 */,
+				4FE74BCD1B645AB80032233F /* Clip7_BlooperReel.mp4 */,
+				4FE74BC11B645AAE0032233F /* Clip_A_RaceSetup.mp4 */,
+				4FE74BC21B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 */,
+				4FE74BC31B645AAE0032233F /* Clip_C_RaceWinTips.mp4 */,
+				4FE74BB91B645AA30032233F /* ClipA_PlasticWrap.mp4 */,
+				4FE74BBA1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 */,
+				4FE74BBB1B645AA30032233F /* ClipC_Pool360.mp4 */,
+				4FE74BBC1B645AA30032233F /* ClipD_KidsInPool.mp4 */,
+				4FE74BAD1B645A950032233F /* ClipI_CraftsmanCloseup.mp4 */,
+				4FE74BAE1B645A950032233F /* ClipII_Tools.mp4 */,
+				4FE74BAF1B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 */,
+				4FE74BB01B645A950032233F /* ClipIV_Craftsman.mp4 */,
+				4FE74BB11B645A950032233F /* ClipV_Craftsman.mp4 */,
+				4FE74BB21B645A950032233F /* ClipVI_Craftsman.mp4 */,
+			);
+			name = videoClips;
+			sourceTree = "<group>";
+		};
+		4F486AF31B64ACD700D1BC12 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				4F486AF41B64ACE500D1BC12 /* businessman-48.png */,
+				4F486AF51B64ACE500D1BC12 /* businesswoman-48.png */,
+				4F486AF61B64ACE500D1BC12 /* close_up_mode-48.png */,
+				4F486AF71B64ACE500D1BC12 /* factory-48.png */,
+				4F486AF81B64ACE500D1BC12 /* film_reel-48.png */,
+				4F486AF91B64ACE500D1BC12 /* idea-48.png */,
+				4F486AFA1B64ACE500D1BC12 /* mms-48.png */,
+				4F486AFB1B64ACE500D1BC12 /* multiple_cameras-48.png */,
+				4F486AFC1B64ACE500D1BC12 /* music-48.png */,
+				4F486AFD1B64ACE500D1BC12 /* online_support-48.png */,
+				4F486AFE1B64ACE500D1BC12 /* rating-48.png */,
+				4F486AFF1B64ACE500D1BC12 /* reading-48.png */,
+				4F486B001B64ACE500D1BC12 /* shipped-48.png */,
+				4F486B011B64ACE500D1BC12 /* sports_mode-48.png */,
+				4F486B021B64ACE500D1BC12 /* webcam-48.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,27 +423,42 @@
 				4FE74BBF1B645AA30032233F /* ClipC_Pool360.mp4 in Resources */,
 				4FE74BB41B645A950032233F /* ClipII_Tools.mp4 in Resources */,
 				4FE74BB51B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 in Resources */,
+				4F486B101B64ACE500D1BC12 /* sports_mode-48.png in Resources */,
 				4FE74BD41B645AB80032233F /* Clip7_BlooperReel.mp4 in Resources */,
+				4F486B091B64ACE500D1BC12 /* mms-48.png in Resources */,
 				4FE74BD01B645AB80032233F /* Clip3_Police.mp4 in Resources */,
 				4FE74BCE1B645AB80032233F /* Clip1_Driving.mp4 in Resources */,
 				4FE74BAC1B6459490032233F /* Products.plist in Resources */,
 				4FE74BB71B645A950032233F /* ClipV_Craftsman.mp4 in Resources */,
+				4F486B081B64ACE500D1BC12 /* idea-48.png in Resources */,
+				4F486B0A1B64ACE500D1BC12 /* multiple_cameras-48.png in Resources */,
 				4FE74BBD1B645AA30032233F /* ClipA_PlasticWrap.mp4 in Resources */,
 				4FE74B961B63F5590032233F /* RecentPurchase.plist in Resources */,
+				4F486B031B64ACE500D1BC12 /* businessman-48.png in Resources */,
 				0F28200D1B635CEE005E916A /* newsfeed.plist in Resources */,
 				4FE74BBE1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 in Resources */,
 				4FE74BB81B645A950032233F /* ClipVI_Craftsman.mp4 in Resources */,
 				4FE74BD11B645AB80032233F /* Clip4_CarDemo.mp4 in Resources */,
 				4FE74BB61B645A950032233F /* ClipIV_Craftsman.mp4 in Resources */,
+				4F486B041B64ACE500D1BC12 /* businesswoman-48.png in Resources */,
+				4F486B0C1B64ACE500D1BC12 /* online_support-48.png in Resources */,
 				0F281FDB1B5F6901005E916A /* Main.storyboard in Resources */,
+				4F486B0F1B64ACE500D1BC12 /* shipped-48.png in Resources */,
 				4FE74BC01B645AA30032233F /* ClipD_KidsInPool.mp4 in Resources */,
+				4F486B0B1B64ACE500D1BC12 /* music-48.png in Resources */,
+				4F486B071B64ACE500D1BC12 /* film_reel-48.png in Resources */,
 				4FE74BD21B645AB80032233F /* Clip5_Crash.mp4 in Resources */,
 				4FE74BC41B645AAE0032233F /* Clip_A_RaceSetup.mp4 in Resources */,
 				4FE74BB31B645A950032233F /* ClipI_CraftsmanCloseup.mp4 in Resources */,
+				4F486B061B64ACE500D1BC12 /* factory-48.png in Resources */,
 				0F281FE01B5F6901005E916A /* LaunchScreen.xib in Resources */,
 				4FE74BC61B645AAE0032233F /* Clip_C_RaceWinTips.mp4 in Resources */,
 				0F281FDD1B5F6901005E916A /* Images.xcassets in Resources */,
+				4F486B0E1B64ACE500D1BC12 /* reading-48.png in Resources */,
 				4FE74BCF1B645AB80032233F /* Clip2_LogTricks.mp4 in Resources */,
+				4F486B051B64ACE500D1BC12 /* close_up_mode-48.png in Resources */,
+				4F486B0D1B64ACE500D1BC12 /* rating-48.png in Resources */,
+				4F486B111B64ACE500D1BC12 /* webcam-48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

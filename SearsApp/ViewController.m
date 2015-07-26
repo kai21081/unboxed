@@ -16,8 +16,10 @@
 #import "Product.h"
 #import "DetailProductViewController.h"
 #import "RecentPurchaseViewController.h"
+#import <Social/Social.h>
+#import <MessageUI/MessageUI.h>
 
-@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate, MFMailComposeViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *newsFeeds;
 @property (strong, nonatomic) MPMoviePlayerController *mc;
@@ -64,7 +66,7 @@
 #pragma mark - UITableViewDataSource
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-  NewsFeedCell *cell = (NewsFeedCell*)[tableView dequeueReusableCellWithIdentifier:@"NewsFeedCell"];
+  NewsFeedCell *cell = (NewsFeedCell*)[tableView dequeueReusableCellWithIdentifier:@"NewsFeedCell" forIndexPath:indexPath];
   NSDictionary *newsFeed = [self.newsFeeds objectAtIndex:indexPath.row];
   cell.title.text = [newsFeed objectForKey:@"Name"];
   
@@ -89,29 +91,21 @@
   [cell.firstFrameView setImage:[ImageResizer resizeImageFromOriginalImage:one size:cell.firstFrameView.bounds.size]];
   cell.firstFrameView.contentMode = UIViewContentModeScaleToFill;
   cell.firstFrameView.alpha = 1;
-  cell.contentView.layer.cornerRadius = 5;
-  cell.contentView.layer.masksToBounds = YES;
-//  if (indexPath.row == 0) {
-//    cell.firstFrameView.alpha = 0;
-//  MPMoviePlayerController *controller = [[MPMoviePlayerController alloc]
-//                                         initWithContentURL:url];
-//  
-//  self.mc = controller; //Super important
-//  self.mc.shouldAutoplay = NO;
-//  [self.mc prepareToPlay];
-//  self.mc.view.frame = cell.videoView.bounds; //Set the size
-//  self.mc.controlStyle = MPMovieControlStyleNone;
-//  self.mc.scalingMode = MPMovieScalingModeAspectFill;
-//  self.mc.repeatMode = MPMovieRepeatModeOne;
-//  [cell.videoView addSubview:self.mc.view]; //Show the view
-//  [self.mc play]; //Start playing
+  
+  cell.userIcon.image = [UIImage imageNamed:[newsFeed objectForKey:@"userIcon"]];
+  cell.userIcon.backgroundColor = [UIColor whiteColor];
+  cell.userIcon.layer.cornerRadius = cell.userIcon.frame.size.width/2;
+  cell.delegate = self;
+//  if (indexPath.row == 0){
+//    [self playVideo:indexPath];
 //  }
-
-
-  
-  
   return cell;
 }
+
+
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+//  return self.newsFeeds.count;
+//}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
   return self.newsFeeds.count;
@@ -147,6 +141,8 @@
     DetailProductViewController *detailProductVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailProductVC"];
     detailProductVC.selectedProduct = product;
     [self.mc stop];
+    NewsFeedCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    cell.firstFrameView.alpha = 1;
     [self.navigationController pushViewController:detailProductVC animated:YES];
   }];
  }
@@ -161,6 +157,58 @@
     RecentPurchaseViewController *recentPurchaseVC = (RecentPurchaseViewController*)segue.destinationViewController;
     recentPurchaseVC.delegate = self;
   }
+}
+
+-(void)didTapEmailButton:(UITableViewCell*)cell{
+  NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+  NSDictionary *newsFeed = [self.newsFeeds objectAtIndex:indexPath.row];
+  
+  MFMailComposeViewController *picker = [[MFMailComposeViewController alloc]init];
+  picker.mailComposeDelegate = self;
+  [picker setSubject:@"Check this from Sears"];
+  
+  [self presentViewController:picker animated:YES completion:nil];
+  
+}
+
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+  [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)didTapTwitterButton:(UITableViewCell*)cell{
+  NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+  NSDictionary *newsFeed = [self.newsFeeds objectAtIndex:indexPath.row];
+  SLComposeViewController *composeVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+  NSURL *url = nil;
+  NSString *vidName = [newsFeed objectForKey:@"Video"];
+  if (vidName) {
+    NSString *vidPath = [[NSBundle mainBundle]pathForResource:vidName ofType:@"mp4"];
+    url = [NSURL fileURLWithPath:vidPath];
+  }else{
+    url = [newsFeed objectForKey:@"VideoURL"];
+  }
+  url = [NSURL URLWithString:@"https://www.dropbox.com/s/fph0ew98zohkx1k/ClipC_Pool360.mp4?dl=0"];
+  [composeVC addURL:url];
+  [self presentViewController:composeVC animated:YES completion:nil];
+}
+
+-(void)didTapFacebookButton:(UITableViewCell*)cell{
+  
+  NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+  NSDictionary *newsFeed = [self.newsFeeds objectAtIndex:indexPath.row];
+  SLComposeViewController *composeVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+  NSURL *url = nil;
+  NSString *vidName = [newsFeed objectForKey:@"Video"];
+  if (vidName) {
+    NSString *vidPath = [[NSBundle mainBundle]pathForResource:vidName ofType:@"mp4"];
+    url = [NSURL fileURLWithPath:vidPath];
+  }else{
+    url = [newsFeed objectForKey:@"VideoURL"];
+  }
+  url = [NSURL URLWithString:@"https://www.dropbox.com/s/fph0ew98zohkx1k/ClipC_Pool360.mp4?dl=0"];
+  [composeVC addURL:url];
+  [self presentViewController:composeVC animated:YES completion:nil];
+  
 }
 
 @end
