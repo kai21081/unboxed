@@ -14,6 +14,41 @@
 		0F281FDD1B5F6901005E916A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F281FDC1B5F6901005E916A /* Images.xcassets */; };
 		0F281FE01B5F6901005E916A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F281FDE1B5F6901005E916A /* LaunchScreen.xib */; };
 		0F281FEC1B5F6901005E916A /* SearsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F281FEB1B5F6901005E916A /* SearsAppTests.m */; };
+		0F281FFA1B5F6A20005E916A /* SearsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F281FF91B5F6A20005E916A /* SearsService.m */; };
+		0F2820001B5F742B005E916A /* JSONParserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F281FFF1B5F742B005E916A /* JSONParserService.m */; };
+		0F2820031B5F75F9005E916A /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2820021B5F75F9005E916A /* Product.m */; };
+		0F2820061B5FFDD7005E916A /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2820051B5FFDD7005E916A /* ProductCell.m */; };
+		0F2820091B635C31005E916A /* NewsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2820081B635C31005E916A /* NewsFeedCell.m */; };
+		0F28200D1B635CEE005E916A /* newsfeed.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F28200C1B635CEE005E916A /* newsfeed.plist */; };
+		0F2820101B63628A005E916A /* NewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28200F1B63628A005E916A /* NewsFeed.m */; };
+		0F2820171B63D90E005E916A /* RecentPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2820161B63D90D005E916A /* RecentPurchaseViewController.m */; };
+		4FE74B931B63F4FB0032233F /* ImageFetchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B901B63F4FB0032233F /* ImageFetchService.m */; };
+		4FE74B941B63F4FB0032233F /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B921B63F4FB0032233F /* ImageResizer.m */; };
+		4FE74B961B63F5590032233F /* RecentPurchase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74B951B63F5590032233F /* RecentPurchase.plist */; };
+		4FE74B991B63F8B00032233F /* RecentPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B981B63F8B00032233F /* RecentPurchaseCell.m */; };
+		4FE74BA21B642A530032233F /* DetailProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74BA11B642A530032233F /* DetailProductViewController.m */; };
+		4FE74BAC1B6459490032233F /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BAB1B6459490032233F /* Products.plist */; };
+		4FE74BB31B645A950032233F /* ClipI_CraftsmanCloseup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BAD1B645A950032233F /* ClipI_CraftsmanCloseup.mp4 */; };
+		4FE74BB41B645A950032233F /* ClipII_Tools.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BAE1B645A950032233F /* ClipII_Tools.mp4 */; };
+		4FE74BB51B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BAF1B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 */; };
+		4FE74BB61B645A950032233F /* ClipIV_Craftsman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BB01B645A950032233F /* ClipIV_Craftsman.mp4 */; };
+		4FE74BB71B645A950032233F /* ClipV_Craftsman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BB11B645A950032233F /* ClipV_Craftsman.mp4 */; };
+		4FE74BB81B645A950032233F /* ClipVI_Craftsman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BB21B645A950032233F /* ClipVI_Craftsman.mp4 */; };
+		4FE74BBD1B645AA30032233F /* ClipA_PlasticWrap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BB91B645AA30032233F /* ClipA_PlasticWrap.mp4 */; };
+		4FE74BBE1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BBA1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 */; };
+		4FE74BBF1B645AA30032233F /* ClipC_Pool360.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BBB1B645AA30032233F /* ClipC_Pool360.mp4 */; };
+		4FE74BC01B645AA30032233F /* ClipD_KidsInPool.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BBC1B645AA30032233F /* ClipD_KidsInPool.mp4 */; };
+		4FE74BC41B645AAE0032233F /* Clip_A_RaceSetup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BC11B645AAE0032233F /* Clip_A_RaceSetup.mp4 */; };
+		4FE74BC51B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BC21B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 */; };
+		4FE74BC61B645AAE0032233F /* Clip_C_RaceWinTips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BC31B645AAE0032233F /* Clip_C_RaceWinTips.mp4 */; };
+		4FE74BCE1B645AB80032233F /* Clip1_Driving.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BC71B645AB80032233F /* Clip1_Driving.mp4 */; };
+		4FE74BCF1B645AB80032233F /* Clip2_LogTricks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BC81B645AB80032233F /* Clip2_LogTricks.mp4 */; };
+		4FE74BD01B645AB80032233F /* Clip3_Police.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BC91B645AB80032233F /* Clip3_Police.mp4 */; };
+		4FE74BD11B645AB80032233F /* Clip4_CarDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BCA1B645AB80032233F /* Clip4_CarDemo.mp4 */; };
+		4FE74BD21B645AB80032233F /* Clip5_Crash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BCB1B645AB80032233F /* Clip5_Crash.mp4 */; };
+		4FE74BD31B645AB80032233F /* Clip6_Dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BCC1B645AB80032233F /* Clip6_Dance.mp4 */; };
+		4FE74BD41B645AB80032233F /* Clip7_BlooperReel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74BCD1B645AB80032233F /* Clip7_BlooperReel.mp4 */; };
+		4FE74BD71B645E7C0032233F /* VideoRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74BD61B645E7C0032233F /* VideoRecordingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +75,54 @@
 		0F281FE51B5F6901005E916A /* SearsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F281FEA1B5F6901005E916A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F281FEB1B5F6901005E916A /* SearsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearsAppTests.m; sourceTree = "<group>"; };
+		0F281FF81B5F6A20005E916A /* SearsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearsService.h; sourceTree = "<group>"; };
+		0F281FF91B5F6A20005E916A /* SearsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearsService.m; sourceTree = "<group>"; };
+		0F281FFE1B5F742B005E916A /* JSONParserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParserService.h; sourceTree = "<group>"; };
+		0F281FFF1B5F742B005E916A /* JSONParserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParserService.m; sourceTree = "<group>"; };
+		0F2820011B5F75F9005E916A /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		0F2820021B5F75F9005E916A /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		0F2820041B5FFDD7005E916A /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		0F2820051B5FFDD7005E916A /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		0F2820071B635C31005E916A /* NewsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedCell.h; sourceTree = "<group>"; };
+		0F2820081B635C31005E916A /* NewsFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedCell.m; sourceTree = "<group>"; };
+		0F28200C1B635CEE005E916A /* newsfeed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newsfeed.plist; sourceTree = "<group>"; };
+		0F28200E1B63628A005E916A /* NewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeed.h; sourceTree = "<group>"; };
+		0F28200F1B63628A005E916A /* NewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeed.m; sourceTree = "<group>"; };
+		0F2820151B63D90D005E916A /* RecentPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentPurchaseViewController.h; sourceTree = "<group>"; };
+		0F2820161B63D90D005E916A /* RecentPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentPurchaseViewController.m; sourceTree = "<group>"; };
+		4FE74B8F1B63F4FB0032233F /* ImageFetchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetchService.h; sourceTree = "<group>"; };
+		4FE74B901B63F4FB0032233F /* ImageFetchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetchService.m; sourceTree = "<group>"; };
+		4FE74B911B63F4FB0032233F /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
+		4FE74B921B63F4FB0032233F /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
+		4FE74B951B63F5590032233F /* RecentPurchase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RecentPurchase.plist; sourceTree = "<group>"; };
+		4FE74B971B63F8B00032233F /* RecentPurchaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentPurchaseCell.h; sourceTree = "<group>"; };
+		4FE74B981B63F8B00032233F /* RecentPurchaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentPurchaseCell.m; sourceTree = "<group>"; };
+		4FE74BA01B642A530032233F /* DetailProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailProductViewController.h; sourceTree = "<group>"; };
+		4FE74BA11B642A530032233F /* DetailProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailProductViewController.m; sourceTree = "<group>"; };
+		4FE74BAB1B6459490032233F /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		4FE74BAD1B645A950032233F /* ClipI_CraftsmanCloseup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipI_CraftsmanCloseup.mp4; path = "Craftsman Tool Videos/ClipI_CraftsmanCloseup.mp4"; sourceTree = "<group>"; };
+		4FE74BAE1B645A950032233F /* ClipII_Tools.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipII_Tools.mp4; path = "Craftsman Tool Videos/ClipII_Tools.mp4"; sourceTree = "<group>"; };
+		4FE74BAF1B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipIII_GreyCraftsmanCloesup.mp4; path = "Craftsman Tool Videos/ClipIII_GreyCraftsmanCloesup.mp4"; sourceTree = "<group>"; };
+		4FE74BB01B645A950032233F /* ClipIV_Craftsman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipIV_Craftsman.mp4; path = "Craftsman Tool Videos/ClipIV_Craftsman.mp4"; sourceTree = "<group>"; };
+		4FE74BB11B645A950032233F /* ClipV_Craftsman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipV_Craftsman.mp4; path = "Craftsman Tool Videos/ClipV_Craftsman.mp4"; sourceTree = "<group>"; };
+		4FE74BB21B645A950032233F /* ClipVI_Craftsman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipVI_Craftsman.mp4; path = "Craftsman Tool Videos/ClipVI_Craftsman.mp4"; sourceTree = "<group>"; };
+		4FE74BB91B645AA30032233F /* ClipA_PlasticWrap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipA_PlasticWrap.mp4; path = "Pool Videos/ClipA_PlasticWrap.mp4"; sourceTree = "<group>"; };
+		4FE74BBA1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipB_LiftPoolFrame.mp4; path = "Pool Videos/ClipB_LiftPoolFrame.mp4"; sourceTree = "<group>"; };
+		4FE74BBB1B645AA30032233F /* ClipC_Pool360.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipC_Pool360.mp4; path = "Pool Videos/ClipC_Pool360.mp4"; sourceTree = "<group>"; };
+		4FE74BBC1B645AA30032233F /* ClipD_KidsInPool.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClipD_KidsInPool.mp4; path = "Pool Videos/ClipD_KidsInPool.mp4"; sourceTree = "<group>"; };
+		4FE74BC11B645AAE0032233F /* Clip_A_RaceSetup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip_A_RaceSetup.mp4; path = "Race Videos/Clip_A_RaceSetup.mp4"; sourceTree = "<group>"; };
+		4FE74BC21B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip_B_RaceSetupAgain.mp4; path = "Race Videos/Clip_B_RaceSetupAgain.mp4"; sourceTree = "<group>"; };
+		4FE74BC31B645AAE0032233F /* Clip_C_RaceWinTips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip_C_RaceWinTips.mp4; path = "Race Videos/Clip_C_RaceWinTips.mp4"; sourceTree = "<group>"; };
+		4FE74BC71B645AB80032233F /* Clip1_Driving.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip1_Driving.mp4; path = "Truck Videos/Clip1_Driving.mp4"; sourceTree = "<group>"; };
+		4FE74BC81B645AB80032233F /* Clip2_LogTricks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip2_LogTricks.mp4; path = "Truck Videos/Clip2_LogTricks.mp4"; sourceTree = "<group>"; };
+		4FE74BC91B645AB80032233F /* Clip3_Police.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip3_Police.mp4; path = "Truck Videos/Clip3_Police.mp4"; sourceTree = "<group>"; };
+		4FE74BCA1B645AB80032233F /* Clip4_CarDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip4_CarDemo.mp4; path = "Truck Videos/Clip4_CarDemo.mp4"; sourceTree = "<group>"; };
+		4FE74BCB1B645AB80032233F /* Clip5_Crash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip5_Crash.mp4; path = "Truck Videos/Clip5_Crash.mp4"; sourceTree = "<group>"; };
+		4FE74BCC1B645AB80032233F /* Clip6_Dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip6_Dance.mp4; path = "Truck Videos/Clip6_Dance.mp4"; sourceTree = "<group>"; };
+		4FE74BCD1B645AB80032233F /* Clip7_BlooperReel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clip7_BlooperReel.mp4; path = "Truck Videos/Clip7_BlooperReel.mp4"; sourceTree = "<group>"; };
+		4FE74BD51B645E7C0032233F /* VideoRecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRecordingViewController.h; sourceTree = "<group>"; };
+		4FE74BD61B645E7C0032233F /* VideoRecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRecordingViewController.m; sourceTree = "<group>"; };
+		4FE74BDA1B64686B0032233F /* AddNewsFeedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewsFeedDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +164,11 @@
 		0F281FCE1B5F6901005E916A /* SearsApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F281FF71B5F69FD005E916A /* Controller */,
+				0F281FF61B5F69F3005E916A /* View */,
+				0F281FF51B5F69DF005E916A /* Model */,
 				0F281FD31B5F6901005E916A /* AppDelegate.h */,
 				0F281FD41B5F6901005E916A /* AppDelegate.m */,
-				0F281FD61B5F6901005E916A /* ViewController.h */,
-				0F281FD71B5F6901005E916A /* ViewController.m */,
 				0F281FD91B5F6901005E916A /* Main.storyboard */,
 				0F281FDC1B5F6901005E916A /* Images.xcassets */,
 				0F281FDE1B5F6901005E916A /* LaunchScreen.xib */,
@@ -96,6 +180,26 @@
 		0F281FCF1B5F6901005E916A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4FE74BC71B645AB80032233F /* Clip1_Driving.mp4 */,
+				4FE74BC81B645AB80032233F /* Clip2_LogTricks.mp4 */,
+				4FE74BC91B645AB80032233F /* Clip3_Police.mp4 */,
+				4FE74BCA1B645AB80032233F /* Clip4_CarDemo.mp4 */,
+				4FE74BCB1B645AB80032233F /* Clip5_Crash.mp4 */,
+				4FE74BCC1B645AB80032233F /* Clip6_Dance.mp4 */,
+				4FE74BCD1B645AB80032233F /* Clip7_BlooperReel.mp4 */,
+				4FE74BC11B645AAE0032233F /* Clip_A_RaceSetup.mp4 */,
+				4FE74BC21B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 */,
+				4FE74BC31B645AAE0032233F /* Clip_C_RaceWinTips.mp4 */,
+				4FE74BB91B645AA30032233F /* ClipA_PlasticWrap.mp4 */,
+				4FE74BBA1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 */,
+				4FE74BBB1B645AA30032233F /* ClipC_Pool360.mp4 */,
+				4FE74BBC1B645AA30032233F /* ClipD_KidsInPool.mp4 */,
+				4FE74BAD1B645A950032233F /* ClipI_CraftsmanCloseup.mp4 */,
+				4FE74BAE1B645A950032233F /* ClipII_Tools.mp4 */,
+				4FE74BAF1B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 */,
+				4FE74BB01B645A950032233F /* ClipIV_Craftsman.mp4 */,
+				4FE74BB11B645A950032233F /* ClipV_Craftsman.mp4 */,
+				4FE74BB21B645A950032233F /* ClipVI_Craftsman.mp4 */,
 				0F281FD01B5F6901005E916A /* Info.plist */,
 				0F281FD11B5F6901005E916A /* main.m */,
 			);
@@ -117,6 +221,57 @@
 				0F281FEA1B5F6901005E916A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F281FF51B5F69DF005E916A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FE74BAB1B6459490032233F /* Products.plist */,
+				4FE74B8F1B63F4FB0032233F /* ImageFetchService.h */,
+				4FE74B901B63F4FB0032233F /* ImageFetchService.m */,
+				4FE74B911B63F4FB0032233F /* ImageResizer.h */,
+				4FE74B921B63F4FB0032233F /* ImageResizer.m */,
+				0F281FF81B5F6A20005E916A /* SearsService.h */,
+				0F281FF91B5F6A20005E916A /* SearsService.m */,
+				0F281FFE1B5F742B005E916A /* JSONParserService.h */,
+				0F281FFF1B5F742B005E916A /* JSONParserService.m */,
+				0F2820011B5F75F9005E916A /* Product.h */,
+				0F2820021B5F75F9005E916A /* Product.m */,
+				0F28200C1B635CEE005E916A /* newsfeed.plist */,
+				0F28200E1B63628A005E916A /* NewsFeed.h */,
+				0F28200F1B63628A005E916A /* NewsFeed.m */,
+				4FE74B951B63F5590032233F /* RecentPurchase.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0F281FF61B5F69F3005E916A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F2820041B5FFDD7005E916A /* ProductCell.h */,
+				0F2820051B5FFDD7005E916A /* ProductCell.m */,
+				0F2820071B635C31005E916A /* NewsFeedCell.h */,
+				0F2820081B635C31005E916A /* NewsFeedCell.m */,
+				4FE74B971B63F8B00032233F /* RecentPurchaseCell.h */,
+				4FE74B981B63F8B00032233F /* RecentPurchaseCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0F281FF71B5F69FD005E916A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F281FD61B5F6901005E916A /* ViewController.h */,
+				0F281FD71B5F6901005E916A /* ViewController.m */,
+				0F2820151B63D90D005E916A /* RecentPurchaseViewController.h */,
+				0F2820161B63D90D005E916A /* RecentPurchaseViewController.m */,
+				4FE74BA01B642A530032233F /* DetailProductViewController.h */,
+				4FE74BA11B642A530032233F /* DetailProductViewController.m */,
+				4FE74BD51B645E7C0032233F /* VideoRecordingViewController.h */,
+				4FE74BD61B645E7C0032233F /* VideoRecordingViewController.m */,
+				4FE74BDA1B64686B0032233F /* AddNewsFeedDelegate.h */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +323,7 @@
 				TargetAttributes = {
 					0F281FCB1B5F6901005E916A = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = ZSG9QM6L5W;
 					};
 					0F281FE41B5F6901005E916A = {
 						CreatedOnToolsVersion = 6.3;
@@ -199,9 +355,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE74BD31B645AB80032233F /* Clip6_Dance.mp4 in Resources */,
+				4FE74BC51B645AAE0032233F /* Clip_B_RaceSetupAgain.mp4 in Resources */,
+				4FE74BBF1B645AA30032233F /* ClipC_Pool360.mp4 in Resources */,
+				4FE74BB41B645A950032233F /* ClipII_Tools.mp4 in Resources */,
+				4FE74BB51B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 in Resources */,
+				4FE74BD41B645AB80032233F /* Clip7_BlooperReel.mp4 in Resources */,
+				4FE74BD01B645AB80032233F /* Clip3_Police.mp4 in Resources */,
+				4FE74BCE1B645AB80032233F /* Clip1_Driving.mp4 in Resources */,
+				4FE74BAC1B6459490032233F /* Products.plist in Resources */,
+				4FE74BB71B645A950032233F /* ClipV_Craftsman.mp4 in Resources */,
+				4FE74BBD1B645AA30032233F /* ClipA_PlasticWrap.mp4 in Resources */,
+				4FE74B961B63F5590032233F /* RecentPurchase.plist in Resources */,
+				0F28200D1B635CEE005E916A /* newsfeed.plist in Resources */,
+				4FE74BBE1B645AA30032233F /* ClipB_LiftPoolFrame.mp4 in Resources */,
+				4FE74BB81B645A950032233F /* ClipVI_Craftsman.mp4 in Resources */,
+				4FE74BD11B645AB80032233F /* Clip4_CarDemo.mp4 in Resources */,
+				4FE74BB61B645A950032233F /* ClipIV_Craftsman.mp4 in Resources */,
 				0F281FDB1B5F6901005E916A /* Main.storyboard in Resources */,
+				4FE74BC01B645AA30032233F /* ClipD_KidsInPool.mp4 in Resources */,
+				4FE74BD21B645AB80032233F /* Clip5_Crash.mp4 in Resources */,
+				4FE74BC41B645AAE0032233F /* Clip_A_RaceSetup.mp4 in Resources */,
+				4FE74BB31B645A950032233F /* ClipI_CraftsmanCloseup.mp4 in Resources */,
 				0F281FE01B5F6901005E916A /* LaunchScreen.xib in Resources */,
+				4FE74BC61B645AAE0032233F /* Clip_C_RaceWinTips.mp4 in Resources */,
 				0F281FDD1B5F6901005E916A /* Images.xcassets in Resources */,
+				4FE74BCF1B645AB80032233F /* Clip2_LogTricks.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +398,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE74B941B63F4FB0032233F /* ImageResizer.m in Sources */,
+				0F2820101B63628A005E916A /* NewsFeed.m in Sources */,
+				0F281FFA1B5F6A20005E916A /* SearsService.m in Sources */,
 				0F281FD81B5F6901005E916A /* ViewController.m in Sources */,
+				0F2820091B635C31005E916A /* NewsFeedCell.m in Sources */,
 				0F281FD51B5F6901005E916A /* AppDelegate.m in Sources */,
+				0F2820031B5F75F9005E916A /* Product.m in Sources */,
+				4FE74B931B63F4FB0032233F /* ImageFetchService.m in Sources */,
+				4FE74B991B63F8B00032233F /* RecentPurchaseCell.m in Sources */,
+				0F2820001B5F742B005E916A /* JSONParserService.m in Sources */,
+				0F2820061B5FFDD7005E916A /* ProductCell.m in Sources */,
+				4FE74BD71B645E7C0032233F /* VideoRecordingViewController.m in Sources */,
+				4FE74BA21B642A530032233F /* DetailProductViewController.m in Sources */,
+				0F2820171B63D90E005E916A /* RecentPurchaseViewController.m in Sources */,
 				0F281FD21B5F6901005E916A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +540,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SearsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +554,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SearsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +617,7 @@
 				0F281FF11B5F6901005E916A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F281FF21B5F6901005E916A /* Build configuration list for PBXNativeTarget "SearsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +626,7 @@
 				0F281FF41B5F6901005E916A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

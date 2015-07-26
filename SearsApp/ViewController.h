@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddNewsFeedDelegate.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<AddNewsFeedDelegate>
 
 
 @end

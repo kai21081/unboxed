@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Intex 12’ x 30” Metal Frame Pool Set</string>
+		<key>reqURL</key>
+		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05234021000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>video</key>
+		<string></string>
+		<key>videoCaption</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Race for the Galaxy</string>
+		<key>reqURL</key>
+		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>video</key>
+		<string></string>
+		<key>videoCaption</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sears Craftsman Power Wheels F-150</string>
+		<key>reqURL</key>
+		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/05235132000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>video</key>
+		<string></string>
+		<key>videoCaption</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Craftsman 153 Piece Tool Set</string>
+		<key>reqURL</key>
+		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/00939153000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>video</key>
+		<string></string>
+		<key>videoCaption</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
