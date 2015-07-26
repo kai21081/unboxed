@@ -19,5 +19,5 @@ Check out this video that will make you smile and laugh. http://gounbox.com/NS3O
 6. Craftsman 420cc Automatic 42” Riding Mower<br/>
 
 <b>Grey for icons</b>
-#949494
+949494
 
