@@ -38,6 +38,7 @@
 		4F486B101B64ACE500D1BC12 /* sports_mode-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486B011B64ACE500D1BC12 /* sports_mode-48.png */; };
 		4F486B111B64ACE500D1BC12 /* webcam-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F486B021B64ACE500D1BC12 /* webcam-48.png */; };
 		4F486B171B64F01800D1BC12 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F486B161B64F01800D1BC12 /* WKWebViewController.m */; };
+		4F486B211B655DA400D1BC12 /* videoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F486B201B655DA400D1BC12 /* videoList.plist */; };
 		4FE74B931B63F4FB0032233F /* ImageFetchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B901B63F4FB0032233F /* ImageFetchService.m */; };
 		4FE74B941B63F4FB0032233F /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE74B921B63F4FB0032233F /* ImageResizer.m */; };
 		4FE74B961B63F5590032233F /* RecentPurchase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FE74B951B63F5590032233F /* RecentPurchase.plist */; };
@@ -124,6 +125,7 @@
 		4F486B121B64C73000D1BC12 /* MySocialProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySocialProtocol.h; sourceTree = "<group>"; };
 		4F486B151B64F01800D1BC12 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
 		4F486B161B64F01800D1BC12 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		4F486B201B655DA400D1BC12 /* videoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = videoList.plist; sourceTree = "<group>"; };
 		4FE74B8F1B63F4FB0032233F /* ImageFetchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetchService.h; sourceTree = "<group>"; };
 		4FE74B901B63F4FB0032233F /* ImageFetchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetchService.m; sourceTree = "<group>"; };
 		4FE74B911B63F4FB0032233F /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				0F28200E1B63628A005E916A /* NewsFeed.h */,
 				0F28200F1B63628A005E916A /* NewsFeed.m */,
 				4FE74B951B63F5590032233F /* RecentPurchase.plist */,
+				4F486B201B655DA400D1BC12 /* videoList.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				4FE74BB41B645A950032233F /* ClipII_Tools.mp4 in Resources */,
 				4FE74BB51B645A950032233F /* ClipIII_GreyCraftsmanCloesup.mp4 in Resources */,
 				4F486B101B64ACE500D1BC12 /* sports_mode-48.png in Resources */,
+				4F486B211B655DA400D1BC12 /* videoList.plist in Resources */,
 				4FE74BD41B645AB80032233F /* Clip7_BlooperReel.mp4 in Resources */,
 				4F486B091B64ACE500D1BC12 /* mms-48.png in Resources */,
 				4FE74BD01B645AB80032233F /* Clip3_Police.mp4 in Resources */,

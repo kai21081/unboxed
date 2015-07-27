@@ -34,6 +34,8 @@
   self.newsFeeds = [NSMutableArray arrayWithContentsOfFile:newsFeedURL];
   self.tableView.dataSource = self;
   self.tableView.delegate = self;
+  UIImage *logoImage = [UIImage imageNamed:@"Unboxed-logo-white"];
+  self.navigationItem.titleView = [[UIImageView alloc] initWithImage:logoImage];
   
   // Do any additional setup after loading the view, typically from a nib.
 }
@@ -93,9 +95,15 @@
   cell.firstFrameView.alpha = 1;
   
   cell.userIcon.image = [UIImage imageNamed:[newsFeed objectForKey:@"userIcon"]];
-  cell.userIcon.backgroundColor = [UIColor whiteColor];
+  cell.userIcon.backgroundColor = [UIColor blackColor];
   cell.userIcon.layer.cornerRadius = cell.userIcon.frame.size.width/2;
   cell.delegate = self;
+  cell.cardView.layer.cornerRadius = 10;
+  cell.socialView.layer.cornerRadius = 10;
+  
+  cell.captionLabel.text = [newsFeed objectForKey:@"caption"];
+  cell.viewCount.text = [NSString stringWithFormat:@"%@ views",[newsFeed objectForKey:@"viewCount"]];
+  
 //  if (indexPath.row == 0){
 //    [self playVideo:indexPath];
 //  }
@@ -140,6 +148,7 @@
   [[SearsService sharedService]fetchProductWithURL:[selectedProduct objectForKey:@"reqURL"] completionHandler:^(Product *product, NSString *error) {
     DetailProductViewController *detailProductVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailProductVC"];
     product.productURL = [selectedProduct objectForKey:@"productURL"];
+    product.category = [selectedProduct objectForKey:@"category"];
     detailProductVC.selectedProduct = product;
     [self.mc stop];
     NewsFeedCell *cell = (NewsFeedCell*)[self.tableView cellForRowAtIndexPath:indexPath];
@@ -161,8 +170,8 @@
 }
 
 -(void)didTapEmailButton:(UITableViewCell*)cell{
-  NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
-  NSDictionary *newsFeed = [self.newsFeeds objectAtIndex:indexPath.row];
+  //NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+  //NSDictionary *newsFeed = [self.newsFeeds objectAtIndex:indexPath.row];
   
   MFMailComposeViewController *picker = [[MFMailComposeViewController alloc]init];
   picker.mailComposeDelegate = self;

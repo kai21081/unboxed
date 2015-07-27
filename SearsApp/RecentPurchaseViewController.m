@@ -84,6 +84,9 @@
   NSString *reqURL = @"http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG";
   [newFeed setObject:reqURL forKey:@"reqURL"];
   [newFeed setObject:videoURL forKey:@"VideoURL"];
+  [newFeed setObject:@"reading-48" forKey:@"userIcon"];
+  [newFeed setObject:@"My birthday present" forKey:@"caption"];
+  [newFeed setObject:@"0" forKey:@"viewCount"];
   [self.delegate addNewFeed:newFeed];
   [self dismissViewControllerAnimated:YES completion:^{
     [self.navigationController popViewControllerAnimated:NO];

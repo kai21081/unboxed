@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>truck</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Sears Craftsman Power Wheels F-150</string>
+			<key>Video</key>
+			<string>Clip1_Driving</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Going wild into the wilderness</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sears Craftsman Power Wheels F-150</string>
+			<key>Video</key>
+			<string>Clip4_CarDemo</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Going wild into the wilderness</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sears Craftsman Power Wheels F-150</string>
+			<key>Video</key>
+			<string>Clip6_Dance</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Going wild into the wilderness</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+	</array>
+	<key>galaxy</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Race for the Galaxy</string>
+			<key>Video</key>
+			<string>Clip_B_RaceSetupAgain</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Going wild into the wilderness</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Race for the Galaxy</string>
+			<key>Video</key>
+			<string>Clip_A_RaceSetup</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Going wild into the wilderness</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Race for the Galaxy</string>
+			<key>Video</key>
+			<string>Clip_C_RaceWinTips</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Going wild into the wilderness</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+	</array>
+	<key>tool</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Craftsman 153 Piece Tool Set</string>
+			<key>Video</key>
+			<string>ClipI_CraftsmanCloseup</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Fully equipped</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Craftsman 153 Piece Tool Set</string>
+			<key>Video</key>
+			<string>ClipII_Tools</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Fully equipped</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Craftsman 153 Piece Tool Set</string>
+			<key>Video</key>
+			<string>ClipV_Craftsman</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Fully equipped</string>
+			<key>viewCount</key>
+			<string>2214</string>
+		</dict>
+	</array>
+	<key>pool</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Intex 12’ x 30” Metal Frame Pool Set</string>
+			<key>Video</key>
+			<string>ClipA_PlasticWrap</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Cool down on a hot summer day</string>
+			<key>viewCount</key>
+			<string>150</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Intex 12’ x 30” Metal Frame Pool Set</string>
+			<key>Video</key>
+			<string>ClipB_LiftPoolFrame</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Cool down on a hot summer day</string>
+			<key>viewCount</key>
+			<string>150</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Intex 12’ x 30” Metal Frame Pool Set</string>
+			<key>Video</key>
+			<string>ClipD_KidsInPool</string>
+			<key>userIcon</key>
+			<string>businesswoman-48</string>
+			<key>caption</key>
+			<string>Cool down on a hot summer day</string>
+			<key>viewCount</key>
+			<string>150</string>
+		</dict>
+	</array>
+</dict>
+</plist>

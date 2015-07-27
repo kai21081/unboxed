@@ -13,18 +13,12 @@
 		<string>businesswoman-48</string>
 		<key>productURL</key>
 		<string>http://www.sears.com/intex-12ft-x-30in-round-frame-pool-package/p-05234021000P?prdNo=2&amp;blockNo=2&amp;blockType=G2</string>
-	</dict>
-	<dict>
-		<key>Name</key>
-		<string>Race for the Galaxy</string>
-		<key>Video</key>
-		<string>Clip_B_RaceSetupAgain</string>
-		<key>reqURL</key>
-		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
-		<key>userIcon</key>
-		<string>shipped-48</string>
-		<key>productURL</key>
-		<string>http://www.kmart.com/rio-grande-race-for-the-galaxy/p-004V001177937001P?redirectType=SKIP_LEVEL</string>
+		<key>caption</key>
+		<string>Round and round we go!!</string>
+		<key>viewCount</key>
+		<string>156</string>
+		<key>category</key>
+		<string>pool</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -37,18 +31,12 @@
 		<string>businesswoman-48</string>
 		<key>productURL</key>
 		<string>http://www.sears.com/my-first-craftsman-fisher-price-power-wheels-my/p-05235132000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
-	</dict>
-	<dict>
-		<key>Name</key>
-		<string>Craftsman 153 Piece Tool Set</string>
-		<key>Video</key>
-		<string>ClipV_Craftsman</string>
-		<key>reqURL</key>
-		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/00939153000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
-		<key>userIcon</key>
-		<string>film_reel-48</string>
-		<key>productURL</key>
-		<string>http://www.sears.com/craftsman-153pc-universal-mts-set/p-00939153000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
+		<key>caption</key>
+		<string>Going wild into the wilderness</string>
+		<key>viewCount</key>
+		<string>2214</string>
+		<key>category</key>
+		<string>truck</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -61,6 +49,48 @@
 		<string>idea-48</string>
 		<key>productURL</key>
 		<string>http://www.sears.com/intex-12ft-x-30in-round-frame-pool-package/p-05234021000P?prdNo=2&amp;blockNo=2&amp;blockType=G2</string>
+		<key>caption</key>
+		<string>Cool down on a hot summer day</string>
+		<key>viewCount</key>
+		<string>150</string>
+		<key>category</key>
+		<string>pool</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Race for the Galaxy</string>
+		<key>Video</key>
+		<string>Clip_B_RaceSetupAgain</string>
+		<key>reqURL</key>
+		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/004V001177937001P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>shipped-48</string>
+		<key>productURL</key>
+		<string>http://www.kmart.com/rio-grande-race-for-the-galaxy/p-004V001177937001P?redirectType=SKIP_LEVEL</string>
+		<key>caption</key>
+		<string>Four player game setup</string>
+		<key>viewCount</key>
+		<string>15</string>
+		<key>category</key>
+		<string>galaxy</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Craftsman 153 Piece Tool Set</string>
+		<key>Video</key>
+		<string>ClipV_Craftsman</string>
+		<key>reqURL</key>
+		<string>http://api.developer.sears.com/v2.1/products/details/Sears/json/00939153000P?showSpec=false&amp;apikey=BE3wLmkvcn5KtQJJ8PNHpYAKZ3ZBrftG</string>
+		<key>userIcon</key>
+		<string>film_reel-48</string>
+		<key>productURL</key>
+		<string>http://www.sears.com/craftsman-153pc-universal-mts-set/p-00939153000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
+		<key>caption</key>
+		<string>Fully equipped</string>
+		<key>viewCount</key>
+		<string>730</string>
+		<key>category</key>
+		<string>tool</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -73,6 +103,12 @@
 		<string>music-48</string>
 		<key>productURL</key>
 		<string>http://www.kmart.com/rio-grande-race-for-the-galaxy/p-004V001177937001P?redirectType=SKIP_LEVEL</string>
+		<key>caption</key>
+		<string>Prepare to go down</string>
+		<key>viewCount</key>
+		<string>10</string>
+		<key>category</key>
+		<string>galaxy</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -85,6 +121,12 @@
 		<string>rating-48</string>
 		<key>productURL</key>
 		<string>http://www.sears.com/my-first-craftsman-fisher-price-power-wheels-my/p-05235132000P?prdNo=1&amp;blockNo=1&amp;blockType=G1</string>
+		<key>caption</key>
+		<string>#UhOhMoment</string>
+		<key>viewCount</key>
+		<string>1003</string>
+		<key>category</key>
+		<string>truck</string>
 	</dict>
 </array>
 </plist>

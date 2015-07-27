@@ -17,6 +17,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *userIcon;
 @property (weak, nonatomic) IBOutlet UILabel *datePosted;
 @property (weak, nonatomic) IBOutlet UILabel *caption;
+@property (weak, nonatomic) IBOutlet UIView *cardView;
+@property (weak, nonatomic) IBOutlet UIView *socialView;
+@property (weak, nonatomic) IBOutlet UILabel *captionLabel
+;
+@property (weak, nonatomic) IBOutlet UILabel *viewCount;
 
 @property (weak, nonatomic) id<MySocialProtocol> delegate;
 

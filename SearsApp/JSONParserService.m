@@ -21,12 +21,17 @@
   NSString *name = [productDescriptionObj objectForKey:@"DescriptionName"];
   name = [name stringByReplacingOccurrencesOfString:@"&#8217;" withString:@"\'"];
   name = [name stringByReplacingOccurrencesOfString:@"&#8221;" withString:@"\""];
+  
+  NSString *shortDescription = [productDescriptionObj objectForKey:@"shortdescription"];
+  shortDescription = [shortDescription stringByReplacingOccurrencesOfString:@"&#8217;" withString:@"\'"];
+  shortDescription = [shortDescription stringByReplacingOccurrencesOfString:@"&#8221;" withString:@"\""];
   NSDictionary *productImages = [productDescriptionObj objectForKey:@"Images"];
   NSString *imageURL = [productImages objectForKey:@"MainImageUrl"];
   Product *product = [[Product alloc]init];
   product.name  = name;
   product.imageURL = imageURL;
   product.price = price;
+  product.shortDescription = shortDescription;
 //  [products addObject:product];
   return product;
 }
